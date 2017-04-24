@@ -1,0 +1,66 @@
+h1 {
+    font-size: 58px;
+}
+
+h4 {
+    font-size: 24px;
+}
+.jumbotron {
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    min-height: 850px;
+    padding-top: 10px;
+}
+
+.navbar-brand {
+    background: url(../images/brand.png) no-repeat;
+    width: 180px;
+    height: 40px;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #aaa;
+}
+
+.navbar-default .navbar-collapse {
+    padding-top: 4px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.welcome {
+    background: rgba(0, 0, 0, 0.2);
+    color: rgba(256, 256, 256, 0.85);
+    padding: 150px;
+    text-align: center;
+}
+
+@media (max-width: 750px) {
+    .navbar-default .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.2);
+        border-color: transparent;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        font-weight: 700;
+    }
+}
